@@ -14,8 +14,8 @@
       margin: 0px auto;
    }
    #header{
-      height: 130px;
-      background-color: grey;
+      height: 110px;
+      background-color: #145274;
       margin-bottom: 20px;
    }
    .logo {
@@ -28,13 +28,19 @@
       background-size: contain;
    }
    .topright {
-
+      margin: 10px auto;
+      display: inline-block;
    }
    .testsize {
-
+      color: white;
+      vertical-align: top;
    }
    .searchbox {
-      
+      background-color: #444;
+      border-radius: 5px;
+      box-shadow: 3px 3px 5px black;
+      padding-top: 10px;
+      padding-left: 30px;      
    }
    #navigation{
       height: 35px;
@@ -76,4 +82,13 @@
       margin: 0 auto;
       background: linear-gradient(#145274, #1976a9);
       color: #7cb9e0;
+   }
+   .textgold {
+      color: #ffd24d;
+   }
+   .under {
+      text-decoration: underline;
+   }
+   .textblack {
+      color: black;
    }
